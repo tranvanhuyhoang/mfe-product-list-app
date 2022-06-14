@@ -12,7 +12,8 @@
     "single-spa-vue": "^2.5.1",
     "systemjs-webpack-interop": "^2.3.7",
     "vue": "^3.2.13",
-    "vue-cli-plugin-single-spa": "^3.3.0"
+    "vue-cli-plugin-single-spa": "^3.3.0",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

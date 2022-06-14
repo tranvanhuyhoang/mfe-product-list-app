@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <span></span>
+  <h1>Product List Page</h1>
+  <router-view/>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
