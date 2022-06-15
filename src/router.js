@@ -1,5 +1,5 @@
-import { createRouter, createWebHistory } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import { createRouter, createWebHistory } from "vue-router"
+import HelloWorld from "./components/HelloWorld.vue"
 
 const routes = [
   {
@@ -7,11 +7,11 @@ const routes = [
     name: "product-list",
     component: HelloWorld,
   },
-];
+]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory("/product-list"),
   routes: routes,
-});
+})
 
-export default router;
+export default router
