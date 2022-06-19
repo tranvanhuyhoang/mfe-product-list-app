@@ -1,11 +1,19 @@
 <template>
   <div id="container-product-relate">
+    <h3>Related Products</h3>
     <img class="img-custom" alt="1" src="./assets/images-product-relate/reco_1.jpg">
     <img class="img-custom" alt="2" src="./assets/images-product-relate/reco_2.jpg">
     <img class="img-custom" alt="3" src="./assets/images-product-relate/reco_3.jpg">
   </div>
-  <span></span>
 </template>
+
+<script>
+  export default {
+    props: ['mountParcel', 'otherProp'],
+  }
+  console.log("mountParcel ", mountParcel)
+  console.log("otherProp ", otherProp)
+</script>
 
 <style>
 #container-product-relate{

@@ -9,7 +9,10 @@ const vueLifecycles = singleSpaVue({
   appOptions: {
     el: "#product-relate",
     render() {
-      return h(App)
+      return h(App, {
+        mountParcel: this.mountParcel,
+        otherProp: this.otherProp,
+      })
     },
   },
   handleInstance: (app) => {
